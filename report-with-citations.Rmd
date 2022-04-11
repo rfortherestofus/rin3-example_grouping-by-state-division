@@ -1,0 +1,32 @@
+---
+title: "Report with citations"
+output: bookdown::html_document2
+bibliography: "bibliography.bib"
+csl: "nature.csl"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+# Food pairing network
+
+One of my favourite papers ever looks at food pairing networks @Ahn_Ahnert_Bagrow_Barabási_2011.
+
+That's all I have to say on the matter. 
+
+
+# References
+
+<div id="refs"></div>
+
+
+
+
+
